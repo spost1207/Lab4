@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="1000.0">
+         <top>
+            <Label prefHeight="168.0" prefWidth="359.0" text="Player3" BorderPane.alignment="CENTER">
+               <graphic>
+                  <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                    <buttons>
+                      <Button mnemonicParsing="false" text="Leave" />
+                        <Button mnemonicParsing="false" text="Sit " />
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+                    </buttons>
+                  </ButtonBar>
+               </graphic>
+            </Label>
+         </top>
+         <left>
+            <Label prefHeight="150.0" prefWidth="302.0" text="Player1" BorderPane.alignment="CENTER">
+               <graphic>
+                  <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                    <buttons>
+                      <Button mnemonicParsing="false" text="Leave" />
+                        <Button mnemonicParsing="false" text="Sit " />
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+                    </buttons>
+                  </ButtonBar>
+               </graphic>
+            </Label>
+         </left>
+         <center>
+            <Label prefHeight="58.0" prefWidth="451.0" text="Community Cards" BorderPane.alignment="CENTER">
+               <graphic>
+                  <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                    <buttons>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button mnemonicParsing="false" text="Start" />
+                    </buttons>
+                  </ButtonBar>
+               </graphic>
+            </Label>
+         </center>
+         <right>
+            <Label prefHeight="73.0" prefWidth="299.0" text="Player2" BorderPane.alignment="CENTER">
+               <graphic>
+                  <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                    <buttons>
+                      <Button mnemonicParsing="false" text="Leave" />
+                        <Button mnemonicParsing="false" text="Sit" />
+                        <ImageView fitHeight="45.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+                    </buttons>
+                  </ButtonBar>
+               </graphic>
+            </Label>
+         </right>
+         <bottom>
+            <Label text="Player4" BorderPane.alignment="CENTER">
+               <graphic>
+                  <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                    <buttons>
+                      <Button mnemonicParsing="false" text="Leave" />
+                        <Button mnemonicParsing="false" text="Sit" />
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+                    </buttons>
+                  </ButtonBar>
+               </graphic>
+            </Label>
+         </bottom>
+      </BorderPane>
+      <MenuBar layoutX="-3.0" layoutY="19.0" prefHeight="30.0" prefWidth="1000.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="5 Card Joker Poker">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Close" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="5 Card Wild Poker">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="5 Card Draw">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="7 Card Draw">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Action 1" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Texas Hold Em">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Action 1" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Omaha">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Action 1" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
